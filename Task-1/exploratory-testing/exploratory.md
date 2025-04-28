@@ -32,7 +32,7 @@
 - Initial balance is ignored.
 
   4. **Test Case: Verify that we can add a new account first thing.**
-   - **Expected Result:** User should be able to create a new account with the currency that they want and a Balance.
+      - **Expected Result:** User should be able to create a new account with the currency that they want and a Balance.
 
 
 5. **Test Case: Verify that income added to an account is reflected correctly in the account balance.**  
