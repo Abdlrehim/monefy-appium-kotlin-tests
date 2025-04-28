@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  kotlin-api-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./test-report:/app/build
+    container_name: kotlin-api-tests
