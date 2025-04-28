@@ -1,40 +1,4 @@
-// import io.kotest.core.spec.style.StringSpec
-// import io.kotest.matchers.shouldBe
-// import io.ktor.client.*
-// import io.ktor.client.call.*
-// import io.ktor.client.engine.cio.*
-// import io.ktor.client.plugins.contentnegotiation.*
-// import io.ktor.client.request.*
-// import io.ktor.http.*
-// import io.ktor.serialization.kotlinx.json.*
-// import kotlinx.coroutines.*
-// import kotlinx.serialization.*
 
-// class PetApiTest : StringSpec({
-
-//     val client = HttpClient(CIO) {
-//         install(ContentNegotiation) {
-//             json()
-//         }
-//     }
-
-//     "should get a pet by id" {
-//         val response = runBlocking {
-//             client.get("https://petstore.swagger.io/v2/pet/1")
-//         }
-        
-//         // val body = runBlocking { response.bodyAsText() }
-//         val body = runBlocking { response.body<String>() }
-//         println("Response body: $body")
-
-//         response.status shouldBe HttpStatusCode.OK
-
-//     }
-
-//     afterSpec {
-//         client.close()
-//     }
-// })
 
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.core.spec.Spec
