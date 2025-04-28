@@ -33,3 +33,17 @@ This builds the Docker image and automatically runs all tests.
 docker-compose up
 ```
 
+## Test Reports
+
+- The **test reports** are located in the following directory:
+ ```
+Task3-Api/test-report/reports/tests/test/packages/index.html
+```
+
+## The test file, which contains the API tests
+```
+Task3-Api/src/test/kotlin/PetApiTest.kt
+```
+
+
+
