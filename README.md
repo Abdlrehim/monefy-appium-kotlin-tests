@@ -45,13 +45,3 @@ Each task has its own respective **README** inside the specific project folder w
     ```
     Task3-Api/test-report/reports/tests/test/packages/index.html
     ```
-
----
-
-## General Setup Instructions
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/Abdlrehim/N26-Alaa-Abdlrehim.git
-   cd N26-Alaa-Abdlrehim
