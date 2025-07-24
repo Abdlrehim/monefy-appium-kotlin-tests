@@ -1,4 +1,4 @@
-# Project Overview: N26 Test Automation
+# Project Overview
 
 This repository contains test automation solutions for three tasks:
 
